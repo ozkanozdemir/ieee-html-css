@@ -1,0 +1,95 @@
+body {
+	margin: 0;	
+}
+
+#header {
+	display: block;
+	height: 826px;
+	margin: 0;
+	background-image: url('../images/header-bg.jpeg'); 
+	background-origin: center center;
+	background-size: cover;
+	background-position: fixed;
+}
+
+#topbar {
+	display: flex;
+	height: 193px;
+	justify-content: space-between;
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 18px;
+}
+#topbar a {
+	color: #fff;
+	text-decoration: none;
+	margin-right: 40px;
+}
+
+#header-main {
+	display: block;
+	height: 413px;
+	padding: 120px 0px 0px 145px;
+}
+
+body {
+  background-color: tan;
+}
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+  body {
+    background-color: blue;
+  }
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+  body {
+    background-color: black;
+  }
+}
+
+
+
+#header-main p {
+	width: 461px;
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 60px;
+}
+
+#header-partners {
+	display: block;
+	height: 100px;
+}
+
+#menu, #right-menu {
+	margin-top: 53px;
+}
+
+
+.mt-40 {
+	margin-top: 40px;
+}
+
+.ml-40 {
+	margin-left: 40px;
+}
+
+.mr-40 {
+	margin-right: 40px;
+}
+
+.btn {
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 16px;
+	box-shadow: 0 3px 5px rgba(2, 9, 31, 0.2);
+	border-radius: 4px;
+	background-color: #1299ff;
+	padding: 15px 20px;
+	border: none;
+}
